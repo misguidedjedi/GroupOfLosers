@@ -35,7 +35,7 @@ main {
     width: 300px;
   }
   div {
-    display: inline-block;
+    display: block;
   }
   }
   
@@ -45,7 +45,7 @@ main {
   }
   
   div {
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
