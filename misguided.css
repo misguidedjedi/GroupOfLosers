@@ -45,13 +45,9 @@ body {
   }
   
   
-  @media only screen and (max-width: 850px) {
-  #welcome-section {background-image: url(https://lh3.googleusercontent.com/XfO-wOBCMjVYshFx7C2BDU3siQZQA_tPebRzLDzPheAfunyVZxfxQUNRHwOpBuSgJGtKgf8OySWgceNsG2ONFpwPA_Qi0vmG7_SB-qmuf224LAEcyLKNCj3Vd66aINRkeRp0gS2JWQ=w2400);
+  @media only screen and (max-width: 767px) {
+  #welcome-section {background-image: url(https://lh3.googleusercontent.com/xzOK0U5rx1iho3gml20cfe58PtLTdx2fs4bnVym-9HLGQgRfThInND2aFP5P8f6zlX964RC1CjDePpTEt5y6qE5krCd2ASGJf626aj0BwrXl2Y5zJHvbJW7VC648vjsdzQ53fczbuw=w2400);
     background-size: cover;
-    }
-
-    #social-links {
-      padding-top: 2vh;
     }
   }
   
@@ -109,5 +105,5 @@ p {
   }
   
   #photo {
-    height: 200px;
+    height: 300px;
   }
