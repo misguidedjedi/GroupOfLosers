@@ -1,0 +1,60 @@
+main {
+    padding-top: 110px;
+    padding-bottom: 5px;
+     }
+  
+   @media screen and (min-width: 1024px)
+   { main {
+    padding-top: 160px;
+    padding-bottom: 1px;
+     } 
+  }
+  
+  #nav-bar {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #header-logo {
+    height: 80px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
+  @media screen and (max-width: 767px)
+  { #header-logo {
+    height: 60px;
+    padding-top: 10px;
+    }
+  .profile-logo {
+    height: 300px;
+    width: 300px;
+  }
+  div {
+    display: inline-block;
+  }
+  }
+  
+  main {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+  }
+  .profile-logo {
+    height: 325px;
+    width: 325px;
+  }
+
+  a:hover {
+    background-color: black;
+  }
