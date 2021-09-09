@@ -25,7 +25,7 @@ main {
     padding-top: 5px;
   }
   
-  @media screen and (max-width: 767px)
+  @media screen and (max-width: 850px)
   { #header-logo {
     height: 60px;
     padding-top: 10px;
