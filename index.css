@@ -25,20 +25,6 @@ main {
     padding-top: 5px;
   }
   
-  @media screen and (max-width: 900px)
-  { #header-logo {
-    height: 60px;
-    padding-top: 10px;
-    }
-  .profile-logo {
-    height: 600px;
-    width: 600px;
-  }
-  div {
-    display: block;
-  }
-  }
-  
   main {
     height: 100vh;
     width: 100%;
@@ -53,6 +39,20 @@ main {
   .profile-logo {
     height: 325px;
     width: 325px;
+  }
+
+@media screen and (max-width: 900px)
+  { #header-logo {
+    height: 60px;
+    padding-top: 10px;
+    }
+  .profile-logo {
+    height: 600px;
+    width: 600px;
+  }
+  div {
+    display: block;
+  }
   }
 
   a:hover {
