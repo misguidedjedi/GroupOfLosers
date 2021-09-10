@@ -13,9 +13,7 @@
   }
   
   #insta-link {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
+    padding-left: 90%;
     list-style: none;
     justify-content: flex-end;
     padding-right: 1vw;
