@@ -32,14 +32,13 @@ main {
   
   div {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
     width: 100%;
     text-align: center;
   }
   .profile-logo {
-    height: 700px;
-    width: 700px;
+    height: 900px;
+    width: 900px;
   }
 
   a:hover {
