@@ -46,6 +46,14 @@ main {
     height: 600px;
     width: 600px;
   }
+
+     Div {
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: row;
+     width: 100%;
+     Align-items: center;
+     Text-align: center;
   }
 
   a:hover {
