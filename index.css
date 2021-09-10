@@ -61,3 +61,7 @@ main {
   a:hover {
     background-color: black;
   }
+
+p {
+    text-align: center;
+}
