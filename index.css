@@ -25,27 +25,13 @@ main {
     padding-top: 5px;
   }
   
-  @media screen and (max-width: 767px)
-  { #header-logo {
-    height: 60px;
-    padding-top: 10px;
-    }
-  .profile-logo {
-    height: 315px;
-    width: 315px;
-  }
-  div {
-    flex-direction: column;
-  }
-  }
-  
   main {
     height: 100vh;
     width: 100%;
   }
   
   div {
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
@@ -55,6 +41,20 @@ main {
     width: 325px;
   }
 
+@media screen and (max-width: 767px)
+  { #header-logo {
+    height: 60px;
+    padding-top: 10px;
+    }
+  .profile-logo {
+    height: 300px;
+    width: 300px;
+  }
+  div {
+    flex-direction: column;
+  }
+  }
+  
   a:hover {
     background-color: black;
   }
