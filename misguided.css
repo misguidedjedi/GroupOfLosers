@@ -49,6 +49,15 @@ body {
   @media only screen and (max-width: 767px) {
   #welcome-section {background-image: url(https://lh3.googleusercontent.com/xzOK0U5rx1iho3gml20cfe58PtLTdx2fs4bnVym-9HLGQgRfThInND2aFP5P8f6zlX964RC1CjDePpTEt5y6qE5krCd2ASGJf626aj0BwrXl2Y5zJHvbJW7VC648vjsdzQ53fczbuw=w2400);
     background-size: cover;
+      }
+      
+  .mobile-button .fab, .far {
+  font-size: 50px;
+      }
+      
+      #social-links {
+      padding-top: 1vh;
+      flex-direction: column;
     }
 }
   
