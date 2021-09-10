@@ -35,27 +35,12 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
     width: 100%;
+    text-align: center;
   }
   .profile-logo {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
   }
-
-@media screen and (max-width: 20px)
-  { .profile-logo {
-    height: 325px;
-    width: 325px;
-  }
-
-     Div {
-     display: flex;
-     justify-content: space-evenly;
-     flex-direction: row;
-     width: 100%;
-     Align-items: center;
-     Text-align: center;
-  }
-}
 
   a:hover {
     background-color: black;
