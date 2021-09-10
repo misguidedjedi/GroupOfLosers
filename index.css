@@ -33,7 +33,7 @@ main {
   div {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
   }
   .profile-logo {
@@ -55,6 +55,7 @@ main {
      Align-items: center;
      Text-align: center;
   }
+}
 
   a:hover {
     background-color: black;
