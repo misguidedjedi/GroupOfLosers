@@ -25,20 +25,34 @@ main {
     padding-top: 5px;
   }
   
+  @media screen and (max-width: 767px)
+  { #header-logo {
+    height: 60px;
+    padding-top: 10px;
+    }
+  .profile-logo {
+    height: 300px;
+    width: 300px;
+  }
+  div {
+    display: inline-block;
+  }
+  }
+  
   main {
     height: 100vh;
     width: 100%;
   }
   
   div {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     width: 100%;
-    text-align: center;
   }
   .profile-logo {
-    height: 900px;
-    width: 900px;
+    height: 325px;
+    width: 325px;
   }
 
   a:hover {
