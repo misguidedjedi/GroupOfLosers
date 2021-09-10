@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     background-color: white;
+    display: flex;
   }
   
   #header-logo {
@@ -13,9 +14,13 @@
   }
   
   .insta-link {
-    padding-left: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
     list-style: none;
+    justify-content: flex-end;
     padding-right: 1vw;
+    width: 100%;
   }
 
   main {
