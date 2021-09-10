@@ -56,6 +56,7 @@ body {
       }
       
       #social-links {
+      padding-top: 12vh;
       padding-top: 1vh;
       flex-direction: column;
     }
