@@ -51,7 +51,7 @@ main {
     width: 315px;
   }
   div {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
