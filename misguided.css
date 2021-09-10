@@ -32,7 +32,8 @@ body {
     }
   
     #header-logo {
-    height: 88px;
+    height: 75px;
+    margin: auto;
     padding-left: 2vw;
     }
   
