@@ -51,12 +51,8 @@ body {
     background-size: cover;
       }
       
-  .mobile-button .fab, .far {
-  font-size: 50px;
-      }
-      
       #social-links {
-      padding-top: 12vh;
+      padding-top: 2vh;
       padding-top: 1vh;
       flex-direction: column;
     }
