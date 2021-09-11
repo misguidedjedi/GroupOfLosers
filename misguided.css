@@ -53,7 +53,7 @@ body {
       
       #social-links {
       padding-top: 2vh;
-      padding-top: 1vh;
+      align-items: flex-start;
       flex-direction: column;
     }
 }
