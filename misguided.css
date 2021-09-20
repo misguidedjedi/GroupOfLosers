@@ -65,11 +65,6 @@ body {
     justify-content: space-around;
   }
 
-.break {
-  flex-basis: 200%;
-  height: 0;
-}
-
   .fab, .far {
 color: #15f2fd;
   }
