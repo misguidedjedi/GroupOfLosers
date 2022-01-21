@@ -45,7 +45,7 @@ main {
   @media screen and (max-width: 767px)
   { #header-logo {
     height: 80px;
-    padding-top: 10px;
+    padding-top: 0px;
     }
   .profile-logo {
     height: 315px;
