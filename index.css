@@ -58,9 +58,10 @@ main {
   }
   
   a:hover {
-    background-color: black;
+    background-color black;
   }
 
 p {
     text-align: center;
+    font-family: Brush Script MT;
 }
