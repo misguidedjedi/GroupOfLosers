@@ -62,14 +62,16 @@ main {
   }
 
 p {
-    text-align center;
-    font-color: white;
-    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 
 #footer {
     background-color: black;
     padding-top: 30px;
+    width: 100%;
+    display: flex;
     left: 0;
     right: 0;
     bottom: 0;
