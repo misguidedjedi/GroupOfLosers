@@ -63,6 +63,8 @@ main {
 
 p {
     text-align center;
+    font-color: white;
+    padding-bottom: 10px;
 }
 
 #footer {
@@ -70,5 +72,5 @@ p {
     padding-top: 30px;
     left: 0;
     right: 0;
-    botom: 0;
+    bottom: 0;
 }
