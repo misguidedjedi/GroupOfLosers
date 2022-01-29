@@ -70,6 +70,7 @@ p {
     background-color: black;
     padding-top: ;
     width: 100vw;
-    display: flex;
-    Align-items: center;
+    Left: 0;
+    Bottom: 0;
+    Right: 0;
 }
