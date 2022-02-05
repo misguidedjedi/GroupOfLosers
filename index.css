@@ -1,11 +1,11 @@
 main {
-    padding-top: 110px;
+    padding-top: 120px;
     padding-bottom: 0
      }
 
 @media screen and (min-width: 1024px)
    { main {
-    padding-top: 160px;
+    padding-top: 120px;
      } 
   }
   
@@ -16,21 +16,20 @@ main {
     left: 0;
     right: 0;
     background-color: rgb(0, 0, 0);
+    z-index: 1000;
   }
   
   #header-logo {
     height: 90px;
-    width: ;
     padding-left: 5px;
   }
   
   main {
-    height100vh;
     width: 100%;
       left: 0;
   }
   
-  div {
+  #profiles {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -47,13 +46,8 @@ main {
     padding-top: 0px;
     }
   .profile-logo {
-    height: 315px;
-    width: 315px;
-  }
-  div {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    height: 105px;
+    width: 105px;
   }
   }
   
@@ -64,4 +58,26 @@ main {
 p {
     text-align: center;
     color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+ width: 42vw;
+ height: 75vh;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
 }
