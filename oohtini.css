@@ -54,3 +54,8 @@
   p {
     padding-top: 10px;
   }
+
+#profile-banner {
+    border: 1px;
+    border-color: black;
+    width: 100%;
