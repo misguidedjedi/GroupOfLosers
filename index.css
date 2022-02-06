@@ -26,7 +26,7 @@ main {
   
   main {
     width: 100%;
-      left: 0;
+    left: 0;
   }
   
   #profiles {
@@ -78,13 +78,13 @@ h1 {
 @media screen and (max-width: 767px) {
   #content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
      align-items: center;
      text-align: center;
   }
    .content {
-       width: 84vw;
-       height: 36vh;
+       width: 155px;
+       height: 155px;
     }
 }
