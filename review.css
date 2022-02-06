@@ -22,7 +22,7 @@
       text-align: center;
   }
 
-  div, img, p, h1, info {
+  div, p, h1, info {
     padding-left: 5%;
     padding-right: 5%;
   }
