@@ -1,3 +1,7 @@
+html {
+  background-color:rgb(31, 31, 31)
+ }
+
 #nav-bar {
     height: 90px;
     position: fixed;
@@ -53,6 +57,7 @@
   
   p {
     padding-top: 10px;
+    color: white;
   }
 
 #profile-banner {
