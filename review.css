@@ -1,3 +1,7 @@
+  html {
+  background-color:rgb(31, 31, 31)
+ }
+
 #nav-bar {
     height: 90px;
     position: fixed;
@@ -16,7 +20,11 @@
   h1 {
       padding-top: 115px;
       text-align: center;
+      color: white;
   }
+
+p { 
+    color: white;
 
   #info {
       text-align: center;
