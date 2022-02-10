@@ -38,3 +38,12 @@ p {
 img {
     max-width: 100%;
 }
+  
+   a:link {
+    color: rgb(0, 153, 255);
+  }
+
+  a:visited {
+    color: rgb(0, 153, 255);
+  }
+  
