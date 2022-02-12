@@ -144,13 +144,6 @@ h1 {
   padding: 12px 16px;
   text-decoration: underline;
   display: block;
-  display: inline-block;
-      flex-direction: row;
-      align-items: center;
-      list-style: none;
-      text-align: right;
-      padding-right: 1vw;
-      width: 100%;
 }
 
 /* Change color of dropdown links on hover */
@@ -159,6 +152,10 @@ h1 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+      align-items: center;
+      text-align: right;
+      padding-right: 1vw;
+      width: 100%;
 }
 
 @media screen and (max-width: 767px) {
