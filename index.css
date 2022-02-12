@@ -5,8 +5,6 @@ html {
 main {
     padding-top: 120px;
     padding-bottom: 0;
-     padding-left: 5%;
-    padding-right: 5%;
      }
 
 @media screen and (min-width: 1024px)
@@ -91,7 +89,7 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
    padding-left: 5%;
-   padding-right: 5%;
+    padding-right: 5%;
 }
 
 @media screen and (max-width: 767px) {
