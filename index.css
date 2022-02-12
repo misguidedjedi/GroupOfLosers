@@ -35,7 +35,7 @@ main {
   
   #profiles {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
   }
@@ -87,9 +87,7 @@ h1 {
 #content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-   padding-left: 5%;
-    padding-right: 5%;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 767px) {
