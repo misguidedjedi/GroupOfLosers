@@ -153,7 +153,8 @@ section {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  margin-left: 80%;
+  margin-left: 65vw;
+  margin-right: 10px;
     
 }
 
