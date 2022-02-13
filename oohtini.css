@@ -35,16 +35,12 @@ html {
     padding-bottom: 50px;
   }
   
-  body {
-    overflow: scroll;
-    padding-top: 80px;
-  }
-  
   section {
     width: 0 auto;
     margin: 0 auto;
     white-space:nowrap; 
     overflow: scroll;
+    overflow-y: hidden;
   }
   
   .pic-container {
