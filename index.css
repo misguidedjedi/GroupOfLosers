@@ -30,8 +30,6 @@ main {
   
   main {
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
   }
   
   .profile-logo {
@@ -73,9 +71,13 @@ h1 {
   justify-content: space-between;
   max-width: 100%;
   margin: 0 auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #bulletin {
+  margin-left: 5%;
+   margin-right: 5%;
 }
 
 section {
@@ -125,6 +127,11 @@ section {
   color: black;
   font: fantasy;
   text-align: center;
+}
+
+#insta-plug {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
