@@ -34,6 +34,10 @@ html {
   main {
     padding-bottom: 50px;
   }
+
+body {
+  padding-top: 120px;
+}
   
   section {
     width: 0 auto;
