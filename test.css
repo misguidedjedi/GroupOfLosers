@@ -161,7 +161,7 @@ section {
 /* Show the dropdown menu on hover */
 .dropdown:active .dropdown-content {
   display: block;
-  margin-left: 0;
+  margin-left: 0vw;
 }
 }
 
@@ -172,6 +172,6 @@ section {
 /* Show the dropdown menu on hover */
 .dropdown:active .dropdown-content {
   display: block;
-  margin-left: 0;
+  margin-left: 0vw;
 }
 }
