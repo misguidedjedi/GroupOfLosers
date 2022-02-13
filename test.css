@@ -148,22 +148,20 @@ section {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:active {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  margin-left: 65vw;
-  margin-right: 10px;
-    
-}
-
-@media screen and (max-width: 767px) {
-
 .dropdown:active .dropdown-content {
   display: block;
 }
 
-.dropdown-content a:active {background-color: #f1f1f1}
+@media screen and (min-width: 1024px) {
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: 65vw;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 }
