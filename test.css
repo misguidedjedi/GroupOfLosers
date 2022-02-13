@@ -30,7 +30,8 @@ main {
   
   main {
     width: 100%;
-    left: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .profile-logo {
