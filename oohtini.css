@@ -1,5 +1,6 @@
 html {
-  background-color:rgb(31, 31, 31)
+  background-color:rgb(31, 31, 31);
+    padding-top: 120px;
  }
 
 #nav-bar {
@@ -34,10 +35,6 @@ html {
   main {
     padding-bottom: 50px;
   }
-
-body {
-  padding-top: 120px;
-}
   
   section {
     width: 0 auto;
