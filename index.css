@@ -75,7 +75,12 @@ h1 {
   margin-right: 5%;
 }
 
-#bulletin , #bulletin-text {
+#bulletin {
+  margin-left: 5%;
+   margin-right: 5%;
+}
+
+#bulletin-text {
   margin-left: 5%;
    margin-right: 5%;
 }
