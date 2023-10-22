@@ -15,7 +15,7 @@ html {
   
   #header-logo {
     height: 90px;
-   padding-left:50%;
+   padding-left:5px;
   }
   
   .insta-link {
@@ -69,3 +69,5 @@ h2 {
     width: 100%;
     padding-top: 10px;
 }
+
+iframe {width: 100vw}
